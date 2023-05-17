@@ -14,6 +14,7 @@ body {
 
 }
 
+
 .nav-button {
     margin: 0px 10px;
     color: #000;
@@ -24,8 +25,18 @@ body {
     padding: 14px 10px;
 }
 
+.nav-button-selected {
+    margin: 0px 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 10px;
+}
+
 .nav-button:hover {
     color: #fff;
-    background-color: #000;
+    background-color: #cfcfcf;
 }
 
