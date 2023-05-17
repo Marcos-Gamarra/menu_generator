@@ -30,7 +30,7 @@ fn generate_head(title: &str) -> String {
     format!(
         "<head>
             <title>{title}</title>
-            <link rel=\"stylesheet\" href=\"../../style.css\">
+            <link rel=\"stylesheet\" href=\"../../style.css\" type=\"text/css\">
         </head>"
     )
 }
